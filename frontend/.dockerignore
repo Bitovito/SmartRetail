@@ -1,0 +1,11 @@
+# frontend-specific ignores (used by frontend build context)
+node_modules
+dist
+.vite
+npm-debug.log
+yarn-error.log
+.pnp
+.env
+.vscode
+.DS_Store
+.git
