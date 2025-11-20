@@ -21,35 +21,68 @@ type CartAction =
 const CartStateContext = createContext<CartState | undefined>(undefined);
 const CartDispatchContext = createContext<React.Dispatch<CartAction> | undefined>(undefined);
 
+const CART_STORAGE_KEY = 'smartretail_cart';
+
+function loadCartFromStorage(): CartState {
+  try {
+    const stored = localStorage.getItem(CART_STORAGE_KEY);
+    if (stored) {
+      return JSON.parse(stored);
+    }
+  } catch (e) {
+    console.error('Error loading cart from localStorage:', e);
+  }
+  return { items: [] };
+}
+
+function saveCartToStorage(state: CartState) {
+  try {
+    localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(state));
+  } catch (e) {
+    console.error('Error saving cart to localStorage:', e);
+  }
+}
+
+
 function reducer(state: CartState, action: CartAction): CartState {
+  let newState: CartState;
+
   switch (action.type) {
     case 'ADD': {
       const { id, quantity, product } = action.payload;
       const existing = state.items.find(i => i.id === id);
       if (existing) {
-        return {
+        newState = {
           ...state,
           items: state.items.map(i => (i.id === id ? { ...i, quantity: i.quantity + quantity } : i)),
         };
+      } else {
+        newState = { ...state, items: [...state.items, { id, quantity, product }] };
       }
-      return { ...state, items: [...state.items, { id, quantity, product }] };
+      break;
     }
     case 'REMOVE':
-      return { ...state, items: state.items.filter(i => i.id !== action.payload.id) };
+      newState = { ...state, items: state.items.filter(i => i.id !== action.payload.id) };
+      break;
     case 'SET_quantity':
-      return {
+      newState = {
         ...state,
         items: state.items.map(i => (i.id === action.payload.id ? { ...i, quantity: action.payload.quantity } : i)),
       };
+      break;
     case 'CLEAR':
-      return { ...state, items: [] };
+      newState = { ...state, items: [] };
+      break;
     default:
       throw new Error('Unknown action type');
   }
+
+  saveCartToStorage(newState);
+  return newState;
 }
 
 export function CartProvider({ children }: { children: ReactNode }) {
-  const [state, dispatch] = useReducer(reducer, { items: [] });
+  const [state, dispatch] = useReducer(reducer, loadCartFromStorage());
   return (
     <CartDispatchContext.Provider value={dispatch}>
       <CartStateContext.Provider value={state}>

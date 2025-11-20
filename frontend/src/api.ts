@@ -15,6 +15,10 @@ export interface Product {
   water_liters?: number;
   land_m2?: number;
   source?: string;
+  nutri_score?: number;
+  env_score?: number;
+  sustainability_score?: number;
+  sustainability_letter?: string;
 }
 
 export interface OptimizeCartResponse {

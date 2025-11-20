@@ -25,6 +25,31 @@ export default function CartPage() {
     }
   }
 
+  function replaceCart() {
+    if (!suggestion) return;
+    
+    dispatch({ type: 'CLEAR' });
+    
+    suggestion.suggested_cart.forEach(s => {
+      const product = {
+        id: s.chosen_id,
+        name: s.name,
+        brand: '',
+        category: '',
+        price: s.unit_price,
+        co2_kg: s.unit_co2_kg,
+      };
+      
+      dispatch({
+        type: 'ADD',
+        payload: { id: s.chosen_id, quantity: s.quantity, product: product as any },
+      });
+    });
+    
+    setSuggestion(null);
+    alert('Carrito actualizado con productos optimizados');
+  }
+
   return (
     <div>
       <h2>Carrito de Compras</h2>
@@ -46,6 +71,13 @@ export default function CartPage() {
       ))}
       
       <div style={{ marginTop: 12 }}>
+        <button 
+          onClick={() => dispatch({ type: 'CLEAR' })}
+          disabled={items.length === 0}
+          style={{ marginLeft: 8 }}
+        >
+          Vaciar Carrito
+        </button>
         <button onClick={onOptimize} disabled={optimizing || items.length === 0}>
           {optimizing ? 'Optimizando...' : 'Optimizar carrito'}
         </button>
@@ -67,6 +99,14 @@ export default function CartPage() {
               </li>
             ))}
           </ul>
+          <div style={{ marginTop: 12 }}>
+            <button onClick={replaceCart} style={{ backgroundColor: '#4CAF50', color: 'white' }}>
+              Reemplazar todo el carrito
+            </button>
+            <button onClick={() => setSuggestion(null)} style={{ marginLeft: 8 }}>
+              Cancelar
+            </button>
+          </div>
         </div>
       )}
     </div>
