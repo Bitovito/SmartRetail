@@ -17,8 +17,6 @@ class Product(models.Model):
     land_m2 = models.FloatField(null=True, blank=True)
 
     source = models.CharField(max_length=200, blank=True)
-    raw = models.JSONField(null=True, blank=True)
-    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return f"{self.name} ({self.sku})"

@@ -1,0 +1,3802 @@
+[
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "name": "Manzana Roja 1kg",
+      "brand": "FrutasChile",
+      "category": "Fruta",
+      "price": 1500,
+      "protein_g": 0.3,
+      "fat_g": 0.2,
+      "carbs_g": 13.8,
+      "sodium_mg": 1,
+      "fiber_g": 2.4,
+      "co2_kg": 0.03,
+      "water_liters": 70,
+      "land_m2": 0.002,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "name": "Plátano 1kg",
+      "brand": "TropicChile",
+      "category": "Fruta",
+      "price": 1200,
+      "protein_g": 1.1,
+      "fat_g": 0.3,
+      "carbs_g": 22.8,
+      "sodium_mg": 5,
+      "fiber_g": 2.6,
+      "co2_kg": 0.05,
+      "water_liters": 120,
+      "land_m2": 0.003,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "name": "Leche Entera 1L",
+      "brand": "LecheriaLosAndes",
+      "category": "Lácteos",
+      "price": 900,
+      "protein_g": 3.4,
+      "fat_g": 3.6,
+      "carbs_g": 4.8,
+      "sodium_mg": 44,
+      "fiber_g": 0.0,
+      "co2_kg": 1.2,
+      "water_liters": 1000,
+      "land_m2": 0.05,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "name": "Pechuga de Pollo 500g",
+      "brand": "FarmHouse",
+      "category": "Carne",
+      "price": 4500,
+      "protein_g": 31.0,
+      "fat_g": 3.6,
+      "carbs_g": 0.0,
+      "sodium_mg": 75,
+      "fiber_g": 0.0,
+      "co2_kg": 3.5,
+      "water_liters": 2150,
+      "land_m2": 0.06,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "name": "Arroz Integral 1kg",
+      "brand": "ArrocesDelSur",
+      "category": "Despensa",
+      "price": 2200,
+      "protein_g": 7.5,
+      "fat_g": 2.7,
+      "carbs_g": 76.2,
+      "sodium_mg": 5,
+      "fiber_g": 3.5,
+      "co2_kg": 0.7,
+      "water_liters": 2500,
+      "land_m2": 0.02,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "name": "Baguette 1u",
+      "brand": "PanaderiaCentral",
+      "category": "Panadería",
+      "price": 800,
+      "protein_g": 9.0,
+      "fat_g": 3.5,
+      "carbs_g": 50.0,
+      "sodium_mg": 400,
+      "fiber_g": 2.5,
+      "co2_kg": 0.4,
+      "water_liters": 160,
+      "land_m2": 0.01,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "name": "Huevos 12u",
+      "brand": "GallinaFeliz",
+      "category": "Desayuno",
+      "price": 2000,
+      "protein_g": 12.6,
+      "fat_g": 10.0,
+      "carbs_g": 1.2,
+      "sodium_mg": 140,
+      "fiber_g": 0.0,
+      "co2_kg": 3.0,
+      "water_liters": 3300,
+      "land_m2": 0.04,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "name": "Carne de Vacuno 500g",
+      "brand": "CarnesChile",
+      "category": "Carne",
+      "price": 7000,
+      "protein_g": 26.0,
+      "fat_g": 20.0,
+      "carbs_g": 0.0,
+      "sodium_mg": 70,
+      "fiber_g": 0.0,
+      "co2_kg": 13.5,
+      "water_liters": 15000,
+      "land_m2": 0.5,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "name": "Queso Fresco 250g",
+      "brand": "QueseriaLocal",
+      "category": "Lácteos",
+      "price": 2200,
+      "protein_g": 18.0,
+      "fat_g": 22.0,
+      "carbs_g": 1.5,
+      "sodium_mg": 300,
+      "fiber_g": 0.0,
+      "co2_kg": 6.0,
+      "water_liters": 4000,
+      "land_m2": 0.08,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "name": "Aceite Girasol 1L",
+      "brand": "AceitesValpo",
+      "category": "Despensa",
+      "price": 4500,
+      "protein_g": 0.0,
+      "fat_g": 100.0,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 2.5,
+      "water_liters": 2000,
+      "land_m2": 0.1,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 11,
+    "fields": {
+      "name": "Lechuga Grande",
+      "brand": "HuertosUrbanos",
+      "category": "Hortalizas",
+      "price": 700,
+      "protein_g": 1.4,
+      "fat_g": 0.2,
+      "carbs_g": 2.9,
+      "sodium_mg": 10,
+      "fiber_g": 1.3,
+      "co2_kg": 0.02,
+      "water_liters": 20,
+      "land_m2": 0.001,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 12,
+    "fields": {
+      "name": "Tomate 1kg",
+      "brand": "HuertosUrbanos",
+      "category": "Hortalizas",
+      "price": 1800,
+      "protein_g": 1.0,
+      "fat_g": 0.2,
+      "carbs_g": 3.9,
+      "sodium_mg": 5,
+      "fiber_g": 1.2,
+      "co2_kg": 0.12,
+      "water_liters": 214,
+      "land_m2": 0.005,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 13,
+    "fields": {
+      "name": "Palta Hass 1kg",
+      "brand": "PaltasChile",
+      "category": "Fruta",
+      "price": 3500,
+      "protein_g": 2.0,
+      "fat_g": 15.0,
+      "carbs_g": 9.0,
+      "sodium_mg": 7,
+      "fiber_g": 6.7,
+      "co2_kg": 1.5,
+      "water_liters": 2000,
+      "land_m2": 0.03,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 14,
+    "fields": {
+      "name": "Yogur Natural 1L",
+      "brand": "Soprole",
+      "category": "Lácteos",
+      "price": 1800,
+      "protein_g": 3.8,
+      "fat_g": 3.0,
+      "carbs_g": 4.5,
+      "sodium_mg": 50,
+      "fiber_g": 0.0,
+      "co2_kg": 1.0,
+      "water_liters": 900,
+      "land_m2": 0.04,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 15,
+    "fields": {
+      "name": "Pan Marraqueta 1kg",
+      "brand": "PanaderiaCentral",
+      "category": "Panadería",
+      "price": 1200,
+      "protein_g": 8.0,
+      "fat_g": 1.0,
+      "carbs_g": 55.0,
+      "sodium_mg": 500,
+      "fiber_g": 3.0,
+      "co2_kg": 0.5,
+      "water_liters": 120,
+      "land_m2": 0.01,
+      "source": "fixture"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 16,
+    "fields": {
+      "name": "Naranja 1kg",
+      "brand": "Watt's",
+      "category": "Fruta",
+      "price": 300,
+      "protein_g": 15.26,
+      "fat_g": 10.84,
+      "carbs_g": 0.87,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 0.58,
+      "water_liters": 178,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 17,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Agrosuper",
+      "category": "Despensa",
+      "price": 7564,
+      "protein_g": 30.39,
+      "fat_g": 4.03,
+      "carbs_g": 0.0,
+      "sodium_mg": 13,
+      "fiber_g": 0.0,
+      "co2_kg": 1.11,
+      "water_liters": 1894,
+      "land_m2": 0.1,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 18,
+    "fields": {
+      "name": "Zanahoria 1kg",
+      "brand": "Super Pollo",
+      "category": "Verdura",
+      "price": 300,
+      "protein_g": 1.61,
+      "fat_g": 0.25,
+      "carbs_g": 2.65,
+      "sodium_mg": 10,
+      "fiber_g": 1.34,
+      "co2_kg": 0.01,
+      "water_liters": 20,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 19,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Ideal",
+      "category": "Fruta",
+      "price": 1736,
+      "protein_g": 1.23,
+      "fat_g": 0.22,
+      "carbs_g": 16.07,
+      "sodium_mg": 0,
+      "fiber_g": 3.06,
+      "co2_kg": 0.07,
+      "water_liters": 179,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 20,
+    "fields": {
+      "name": "Frutilla 500g",
+      "brand": "Watt's",
+      "category": "Despensa",
+      "price": 300,
+      "protein_g": 0.96,
+      "fat_g": 0.22,
+      "carbs_g": 24.16,
+      "sodium_mg": 0,
+      "fiber_g": 2.91,
+      "co2_kg": 0.01,
+      "water_liters": 50,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 21,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "Jumbo",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 0.79,
+      "fat_g": 0.35,
+      "carbs_g": 19.57,
+      "sodium_mg": 0,
+      "fiber_g": 2.41,
+      "co2_kg": 0.02,
+      "water_liters": 218,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 22,
+    "fields": {
+      "name": "Tofu 400g",
+      "brand": "Carozzi",
+      "category": "Fruta",
+      "price": 442,
+      "protein_g": 3.2,
+      "fat_g": 4.5,
+      "carbs_g": 4.3,
+      "sodium_mg": 64,
+      "fiber_g": 0.0,
+      "co2_kg": 2.31,
+      "water_liters": 1139,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 23,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Lider",
+      "category": "Panadería",
+      "price": 300,
+      "protein_g": 3.84,
+      "fat_g": 3.75,
+      "carbs_g": 3.38,
+      "sodium_mg": 56,
+      "fiber_g": 0.0,
+      "co2_kg": 0.51,
+      "water_liters": 1070,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 24,
+    "fields": {
+      "name": "Pan Molde Integral 700g",
+      "brand": "Marcel",
+      "category": "Snack",
+      "price": 1611,
+      "protein_g": 2.69,
+      "fat_g": 3.69,
+      "carbs_g": 3.63,
+      "sodium_mg": 89,
+      "fiber_g": 0.0,
+      "co2_kg": 1.6,
+      "water_liters": 1423,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 25,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Agrosuper",
+      "category": "Carne",
+      "price": 5299,
+      "protein_g": 23.41,
+      "fat_g": 3.3,
+      "carbs_g": 0.0,
+      "sodium_mg": 109,
+      "fiber_g": 0.0,
+      "co2_kg": 1.93,
+      "water_liters": 1671,
+      "land_m2": 0.04,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 26,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Lider",
+      "category": "Verdura",
+      "price": 1348,
+      "protein_g": 4.22,
+      "fat_g": 2.55,
+      "carbs_g": 4.93,
+      "sodium_mg": 80,
+      "fiber_g": 0.0,
+      "co2_kg": 1.68,
+      "water_liters": 1859,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 27,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Ideal",
+      "category": "Snack",
+      "price": 2291,
+      "protein_g": 1.0,
+      "fat_g": 0.26,
+      "carbs_g": 5.04,
+      "sodium_mg": 12,
+      "fiber_g": 1.31,
+      "co2_kg": 0.03,
+      "water_liters": 251,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 28,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Soprole",
+      "category": "Fruta",
+      "price": 1050,
+      "protein_g": 21.88,
+      "fat_g": 18.63,
+      "carbs_g": 1.28,
+      "sodium_mg": 478,
+      "fiber_g": 0.0,
+      "co2_kg": 7.13,
+      "water_liters": 2745,
+      "land_m2": 0.14,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 29,
+    "fields": {
+      "name": "Yogur Griego 900g",
+      "brand": "Doña María",
+      "category": "Carne",
+      "price": 1751,
+      "protein_g": 4.15,
+      "fat_g": 3.43,
+      "carbs_g": 3.64,
+      "sodium_mg": 105,
+      "fiber_g": 0.0,
+      "co2_kg": 1.86,
+      "water_liters": 1464,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 30,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Carozzi",
+      "category": "Desayuno",
+      "price": 2861,
+      "protein_g": 0.89,
+      "fat_g": 0.17,
+      "carbs_g": 4.82,
+      "sodium_mg": 4,
+      "fiber_g": 0.84,
+      "co2_kg": 0.16,
+      "water_liters": 58,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 31,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Lucchetti",
+      "category": "Fruta",
+      "price": 963,
+      "protein_g": 9.93,
+      "fat_g": 0.96,
+      "carbs_g": 69.79,
+      "sodium_mg": 935,
+      "fiber_g": 3.16,
+      "co2_kg": 0.01,
+      "water_liters": 16,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 32,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Nestlé",
+      "category": "Lácteos",
+      "price": 1078,
+      "protein_g": 0.78,
+      "fat_g": 0.31,
+      "carbs_g": 27.61,
+      "sodium_mg": 1,
+      "fiber_g": 2.04,
+      "co2_kg": 0.02,
+      "water_liters": 140,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 33,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Super Pollo",
+      "category": "Snack",
+      "price": 1430,
+      "protein_g": 0.87,
+      "fat_g": 0.15,
+      "carbs_g": 3.33,
+      "sodium_mg": 0,
+      "fiber_g": 1.08,
+      "co2_kg": 0.1,
+      "water_liters": 248,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 34,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Watt's",
+      "category": "Lácteos",
+      "price": 300,
+      "protein_g": 15.19,
+      "fat_g": 18.11,
+      "carbs_g": 1.94,
+      "sodium_mg": 570,
+      "fiber_g": 0.0,
+      "co2_kg": 1.09,
+      "water_liters": 615,
+      "land_m2": 0.15,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 35,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "Tottus",
+      "category": "Verdura",
+      "price": 2977,
+      "protein_g": 0.0,
+      "fat_g": 79.76,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 0.29,
+      "water_liters": 2705,
+      "land_m2": 0.08,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 36,
+    "fields": {
+      "name": "Naranja 1kg",
+      "brand": "Soprole",
+      "category": "Fruta",
+      "price": 1225,
+      "protein_g": 7.95,
+      "fat_g": 1.24,
+      "carbs_g": 52.88,
+      "sodium_mg": 1197,
+      "fiber_g": 3.18,
+      "co2_kg": 0.31,
+      "water_liters": 104,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 37,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "PF",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 2.67,
+      "fat_g": 3.42,
+      "carbs_g": 4.21,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 1.95,
+      "water_liters": 1375,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 38,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Colún",
+      "category": "Carne",
+      "price": 3661,
+      "protein_g": 12.12,
+      "fat_g": 7.78,
+      "carbs_g": 0.88,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 2.02,
+      "water_liters": 5230,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 39,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "PF",
+      "category": "Verdura",
+      "price": 300,
+      "protein_g": 0.0,
+      "fat_g": 114.1,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 1.81,
+      "water_liters": 3151,
+      "land_m2": 0.13,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 40,
+    "fields": {
+      "name": "Salmón 500g",
+      "brand": "Ambrosoli",
+      "category": "Despensa",
+      "price": 8386,
+      "protein_g": 27.84,
+      "fat_g": 24.92,
+      "carbs_g": 0.0,
+      "sodium_mg": 106,
+      "fiber_g": 0.0,
+      "co2_kg": 15.26,
+      "water_liters": 2133,
+      "land_m2": 0.81,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 41,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Jumbo",
+      "category": "Verdura",
+      "price": 660,
+      "protein_g": 14.0,
+      "fat_g": 8.8,
+      "carbs_g": 1.47,
+      "sodium_mg": 136,
+      "fiber_g": 0.0,
+      "co2_kg": 1.4,
+      "water_liters": 1864,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 42,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Trattoria",
+      "category": "Fruta",
+      "price": 429,
+      "protein_g": 1.2,
+      "fat_g": 0.26,
+      "carbs_g": 17.24,
+      "sodium_mg": 0,
+      "fiber_g": 2.72,
+      "co2_kg": 0.05,
+      "water_liters": 156,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 43,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Carozzi",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 3.02,
+      "fat_g": 3.18,
+      "carbs_g": 3.83,
+      "sodium_mg": 54,
+      "fiber_g": 0.0,
+      "co2_kg": 1.54,
+      "water_liters": 579,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 44,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Super Pollo",
+      "category": "Carne",
+      "price": 505,
+      "protein_g": 2.97,
+      "fat_g": 2.53,
+      "carbs_g": 4.54,
+      "sodium_mg": 11,
+      "fiber_g": 0.0,
+      "co2_kg": 2.31,
+      "water_liters": 154,
+      "land_m2": 0.09,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 45,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Watt's",
+      "category": "Panadería",
+      "price": 1923,
+      "protein_g": 3.89,
+      "fat_g": 3.8,
+      "carbs_g": 3.91,
+      "sodium_mg": 74,
+      "fiber_g": 0.0,
+      "co2_kg": 0.2,
+      "water_liters": 641,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 46,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Ideal",
+      "category": "Panadería",
+      "price": 300,
+      "protein_g": 0.0,
+      "fat_g": 102.7,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 1.49,
+      "water_liters": 1156,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 47,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Trattoria",
+      "category": "Carne",
+      "price": 4006,
+      "protein_g": 0.0,
+      "fat_g": 119.16,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 2.32,
+      "water_liters": 3939,
+      "land_m2": 0.15,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 48,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "Colún",
+      "category": "Panadería",
+      "price": 5606,
+      "protein_g": 1.67,
+      "fat_g": 14.24,
+      "carbs_g": 8.09,
+      "sodium_mg": 0,
+      "fiber_g": 7.7,
+      "co2_kg": 2.83,
+      "water_liters": 1085,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 49,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "PF",
+      "category": "Lácteos",
+      "price": 8257,
+      "protein_g": 0.0,
+      "fat_g": 104.82,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 4.73,
+      "water_liters": 2908,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 50,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Trattoria",
+      "category": "Despensa",
+      "price": 2203,
+      "protein_g": 12.91,
+      "fat_g": 10.05,
+      "carbs_g": 1.48,
+      "sodium_mg": 124,
+      "fiber_g": 0.0,
+      "co2_kg": 1.27,
+      "water_liters": 4186,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 51,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Watt's",
+      "category": "Verdura",
+      "price": 9290,
+      "protein_g": 19.41,
+      "fat_g": 16.99,
+      "carbs_g": 0.0,
+      "sodium_mg": 46,
+      "fiber_g": 0.0,
+      "co2_kg": 11.39,
+      "water_liters": 5519,
+      "land_m2": 0.28,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 52,
+    "fields": {
+      "name": "Salmón 500g",
+      "brand": "Jumbo",
+      "category": "Snack",
+      "price": 2451,
+      "protein_g": 0.28,
+      "fat_g": 0.21,
+      "carbs_g": 17.5,
+      "sodium_mg": 0,
+      "fiber_g": 2.7,
+      "co2_kg": 0.03,
+      "water_liters": 121,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 53,
+    "fields": {
+      "name": "Yogur Griego 900g",
+      "brand": "Colún",
+      "category": "Snack",
+      "price": 3170,
+      "protein_g": 0.91,
+      "fat_g": 0.25,
+      "carbs_g": 4.94,
+      "sodium_mg": 7,
+      "fiber_g": 1.26,
+      "co2_kg": 0.15,
+      "water_liters": 149,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 54,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "PF",
+      "category": "Snack",
+      "price": 4703,
+      "protein_g": 17.03,
+      "fat_g": 28.15,
+      "carbs_g": 1.3,
+      "sodium_mg": 691,
+      "fiber_g": 0.0,
+      "co2_kg": 11.85,
+      "water_liters": 5079,
+      "land_m2": 0.15,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 55,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "Doña María",
+      "category": "Despensa",
+      "price": 300,
+      "protein_g": 26.9,
+      "fat_g": 3.4,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 4.19,
+      "water_liters": 2868,
+      "land_m2": 0.11,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 56,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "Ideal",
+      "category": "Verdura",
+      "price": 1066,
+      "protein_g": 2.71,
+      "fat_g": 4.55,
+      "carbs_g": 5.08,
+      "sodium_mg": 12,
+      "fiber_g": 0.0,
+      "co2_kg": 2.4,
+      "water_liters": 1402,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 57,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Soprole",
+      "category": "Panadería",
+      "price": 1272,
+      "protein_g": 9.18,
+      "fat_g": 4.41,
+      "carbs_g": 43.75,
+      "sodium_mg": 275,
+      "fiber_g": 2.66,
+      "co2_kg": 0.62,
+      "water_liters": 15,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 58,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Super Pollo",
+      "category": "Despensa",
+      "price": 564,
+      "protein_g": 0.0,
+      "fat_g": 85.21,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 3.4,
+      "water_liters": 3836,
+      "land_m2": 0.11,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 59,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "Agrosuper",
+      "category": "Despensa",
+      "price": 300,
+      "protein_g": 0.0,
+      "fat_g": 71.56,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 0.39,
+      "water_liters": 1162,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 60,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Marcel",
+      "category": "Lácteos",
+      "price": 300,
+      "protein_g": 7.53,
+      "fat_g": 2.68,
+      "carbs_g": 57.41,
+      "sodium_mg": 488,
+      "fiber_g": 1.93,
+      "co2_kg": 0.72,
+      "water_liters": 10,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 61,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "Soprole",
+      "category": "Snack",
+      "price": 1038,
+      "protein_g": 10.21,
+      "fat_g": 1.03,
+      "carbs_g": 46.83,
+      "sodium_mg": 430,
+      "fiber_g": 3.87,
+      "co2_kg": 0.34,
+      "water_liters": 188,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 62,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Trattoria",
+      "category": "Panadería",
+      "price": 757,
+      "protein_g": 5.48,
+      "fat_g": 3.1,
+      "carbs_g": 91.68,
+      "sodium_mg": 0,
+      "fiber_g": 3.69,
+      "co2_kg": 1.01,
+      "water_liters": 4403,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 63,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Watt's",
+      "category": "Fruta",
+      "price": 982,
+      "protein_g": 0.0,
+      "fat_g": 89.42,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 2.76,
+      "water_liters": 1293,
+      "land_m2": 0.09,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 64,
+    "fields": {
+      "name": "Naranja 1kg",
+      "brand": "Nestlé",
+      "category": "Snack",
+      "price": 1255,
+      "protein_g": 0.25,
+      "fat_g": 0.21,
+      "carbs_g": 16.72,
+      "sodium_mg": 1,
+      "fiber_g": 2.13,
+      "co2_kg": 0.03,
+      "water_liters": 29,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 65,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Colún",
+      "category": "Fruta",
+      "price": 1519,
+      "protein_g": 1.03,
+      "fat_g": 0.22,
+      "carbs_g": 2.98,
+      "sodium_mg": 21,
+      "fiber_g": 1.21,
+      "co2_kg": 0.04,
+      "water_liters": 29,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 66,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Lider",
+      "category": "Lácteos",
+      "price": 300,
+      "protein_g": 1.21,
+      "fat_g": 0.32,
+      "carbs_g": 22.19,
+      "sodium_mg": 0,
+      "fiber_g": 2.35,
+      "co2_kg": 0.07,
+      "water_liters": 182,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 67,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Nestlé",
+      "category": "Lácteos",
+      "price": 5690,
+      "protein_g": 0.0,
+      "fat_g": 90.83,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 3.03,
+      "water_liters": 3751,
+      "land_m2": 0.14,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 68,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Lucchetti",
+      "category": "Verdura",
+      "price": 10255,
+      "protein_g": 31.2,
+      "fat_g": 25.51,
+      "carbs_g": 0.0,
+      "sodium_mg": 160,
+      "fiber_g": 0.0,
+      "co2_kg": 25.73,
+      "water_liters": 6950,
+      "land_m2": 0.76,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 69,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Colún",
+      "category": "Carne",
+      "price": 3206,
+      "protein_g": 15.8,
+      "fat_g": 15.77,
+      "carbs_g": 1.69,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 6.68,
+      "water_liters": 2048,
+      "land_m2": 0.13,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 70,
+    "fields": {
+      "name": "Lechuga Hidropónica 1u",
+      "brand": "La Preferida",
+      "category": "Carne",
+      "price": 3712,
+      "protein_g": 1.18,
+      "fat_g": 0.25,
+      "carbs_g": 4.28,
+      "sodium_mg": 10,
+      "fiber_g": 0.89,
+      "co2_kg": 0.23,
+      "water_liters": 167,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 71,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Colún",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 0.37,
+      "fat_g": 0.26,
+      "carbs_g": 12.63,
+      "sodium_mg": 0,
+      "fiber_g": 1.9,
+      "co2_kg": 0.06,
+      "water_liters": 13,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 72,
+    "fields": {
+      "name": "Lechuga Hidropónica 1u",
+      "brand": "Marcel",
+      "category": "Snack",
+      "price": 2018,
+      "protein_g": 0.21,
+      "fat_g": 0.25,
+      "carbs_g": 17.85,
+      "sodium_mg": 0,
+      "fiber_g": 2.16,
+      "co2_kg": 0.04,
+      "water_liters": 128,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 73,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Soprole",
+      "category": "Snack",
+      "price": 968,
+      "protein_g": 0.74,
+      "fat_g": 0.16,
+      "carbs_g": 4.5,
+      "sodium_mg": 9,
+      "fiber_g": 1.45,
+      "co2_kg": 0.11,
+      "water_liters": 339,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 74,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "Jumbo",
+      "category": "Verdura",
+      "price": 300,
+      "protein_g": 8.85,
+      "fat_g": 3.34,
+      "carbs_g": 88.37,
+      "sodium_mg": 5,
+      "fiber_g": 3.5,
+      "co2_kg": 1.21,
+      "water_liters": 2011,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 75,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Soprole",
+      "category": "Despensa",
+      "price": 4753,
+      "protein_g": 2.57,
+      "fat_g": 11.79,
+      "carbs_g": 6.47,
+      "sodium_mg": 0,
+      "fiber_g": 8.09,
+      "co2_kg": 2.62,
+      "water_liters": 615,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 76,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "La Preferida",
+      "category": "Lácteos",
+      "price": 979,
+      "protein_g": 1.63,
+      "fat_g": 0.18,
+      "carbs_g": 2.32,
+      "sodium_mg": 2,
+      "fiber_g": 1.58,
+      "co2_kg": 0.01,
+      "water_liters": 36,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 77,
+    "fields": {
+      "name": "Frutilla 500g",
+      "brand": "Watt's",
+      "category": "Verdura",
+      "price": 801,
+      "protein_g": 19.79,
+      "fat_g": 22.64,
+      "carbs_g": 1.82,
+      "sodium_mg": 56,
+      "fiber_g": 0.0,
+      "co2_kg": 3.21,
+      "water_liters": 918,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 78,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "PF",
+      "category": "Verdura",
+      "price": 1143,
+      "protein_g": 5.59,
+      "fat_g": 2.96,
+      "carbs_g": 83.65,
+      "sodium_mg": 9,
+      "fiber_g": 3.86,
+      "co2_kg": 1.38,
+      "water_liters": 332,
+      "land_m2": 0.04,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 79,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "Carozzi",
+      "category": "Panadería",
+      "price": 4364,
+      "protein_g": 0.0,
+      "fat_g": 75.68,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 3.87,
+      "water_liters": 968,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 80,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Colún",
+      "category": "Lácteos",
+      "price": 300,
+      "protein_g": 4.07,
+      "fat_g": 3.06,
+      "carbs_g": 5.57,
+      "sodium_mg": 4,
+      "fiber_g": 0.0,
+      "co2_kg": 1.15,
+      "water_liters": 745,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 81,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Super Pollo",
+      "category": "Despensa",
+      "price": 2167,
+      "protein_g": 15.88,
+      "fat_g": 12.55,
+      "carbs_g": 1.25,
+      "sodium_mg": 204,
+      "fiber_g": 0.0,
+      "co2_kg": 0.67,
+      "water_liters": 5940,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 82,
+    "fields": {
+      "name": "Zanahoria 1kg",
+      "brand": "Super Pollo",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 9.98,
+      "fat_g": 12.79,
+      "carbs_g": 1.46,
+      "sodium_mg": 49,
+      "fiber_g": 0.0,
+      "co2_kg": 2.75,
+      "water_liters": 3752,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 83,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Marcel",
+      "category": "Snack",
+      "price": 3202,
+      "protein_g": 11.59,
+      "fat_g": 10.16,
+      "carbs_g": 1.02,
+      "sodium_mg": 84,
+      "fiber_g": 0.0,
+      "co2_kg": 0.65,
+      "water_liters": 5165,
+      "land_m2": 0.08,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 84,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Lider",
+      "category": "Desayuno",
+      "price": 2806,
+      "protein_g": 2.44,
+      "fat_g": 10.51,
+      "carbs_g": 7.3,
+      "sodium_mg": 1,
+      "fiber_g": 5.78,
+      "co2_kg": 2.09,
+      "water_liters": 259,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 85,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "Lucchetti",
+      "category": "Lácteos",
+      "price": 1732,
+      "protein_g": 2.48,
+      "fat_g": 3.68,
+      "carbs_g": 5.25,
+      "sodium_mg": 35,
+      "fiber_g": 0.0,
+      "co2_kg": 0.01,
+      "water_liters": 1307,
+      "land_m2": 0.09,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 86,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Nestlé",
+      "category": "Fruta",
+      "price": 3162,
+      "protein_g": 6.31,
+      "fat_g": 3.24,
+      "carbs_g": 53.83,
+      "sodium_mg": 12,
+      "fiber_g": 4.08,
+      "co2_kg": 0.68,
+      "water_liters": 4611,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 87,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Agrosuper",
+      "category": "Snack",
+      "price": 9145,
+      "protein_g": 0.0,
+      "fat_g": 70.65,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 4.98,
+      "water_liters": 1014,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 88,
+    "fields": {
+      "name": "Tofu 400g",
+      "brand": "Super Pollo",
+      "category": "Panadería",
+      "price": 300,
+      "protein_g": 4.25,
+      "fat_g": 4.1,
+      "carbs_g": 3.44,
+      "sodium_mg": 75,
+      "fiber_g": 0.0,
+      "co2_kg": 0.25,
+      "water_liters": 155,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 89,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Lider",
+      "category": "Lácteos",
+      "price": 3398,
+      "protein_g": 13.72,
+      "fat_g": 16.38,
+      "carbs_g": 1.2,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 11.02,
+      "water_liters": 1882,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 90,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Tottus",
+      "category": "Despensa",
+      "price": 4644,
+      "protein_g": 38.18,
+      "fat_g": 4.2,
+      "carbs_g": 0.0,
+      "sodium_mg": 153,
+      "fiber_g": 0.0,
+      "co2_kg": 0.87,
+      "water_liters": 2363,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 91,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Lucchetti",
+      "category": "Despensa",
+      "price": 1245,
+      "protein_g": 8.13,
+      "fat_g": 2.9,
+      "carbs_g": 55.36,
+      "sodium_mg": 350,
+      "fiber_g": 1.8,
+      "co2_kg": 0.57,
+      "water_liters": 66,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 92,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "PF",
+      "category": "Panadería",
+      "price": 2470,
+      "protein_g": 0.28,
+      "fat_g": 0.24,
+      "carbs_g": 11.02,
+      "sodium_mg": 1,
+      "fiber_g": 2.52,
+      "co2_kg": 0.04,
+      "water_liters": 46,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 93,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "Lucchetti",
+      "category": "Verdura",
+      "price": 11997,
+      "protein_g": 28.82,
+      "fat_g": 22.3,
+      "carbs_g": 0.0,
+      "sodium_mg": 63,
+      "fiber_g": 0.0,
+      "co2_kg": 25.76,
+      "water_liters": 19016,
+      "land_m2": 0.51,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 94,
+    "fields": {
+      "name": "Pan Molde Integral 700g",
+      "brand": "Marcel",
+      "category": "Verdura",
+      "price": 1392,
+      "protein_g": 0.8,
+      "fat_g": 0.33,
+      "carbs_g": 25.26,
+      "sodium_mg": 1,
+      "fiber_g": 3.04,
+      "co2_kg": 0.1,
+      "water_liters": 20,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 95,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Lider",
+      "category": "Carne",
+      "price": 824,
+      "protein_g": 1.16,
+      "fat_g": 0.18,
+      "carbs_g": 2.91,
+      "sodium_mg": 23,
+      "fiber_g": 1.51,
+      "co2_kg": 0.03,
+      "water_liters": 10,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 96,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Agrosuper",
+      "category": "Verdura",
+      "price": 300,
+      "protein_g": 1.19,
+      "fat_g": 0.18,
+      "carbs_g": 4.93,
+      "sodium_mg": 0,
+      "fiber_g": 1.34,
+      "co2_kg": 0.11,
+      "water_liters": 244,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 97,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Doña María",
+      "category": "Verdura",
+      "price": 2435,
+      "protein_g": 1.13,
+      "fat_g": 0.25,
+      "carbs_g": 4.89,
+      "sodium_mg": 6,
+      "fiber_g": 0.93,
+      "co2_kg": 0.1,
+      "water_liters": 284,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 98,
+    "fields": {
+      "name": "Pan Molde Integral 700g",
+      "brand": "Doña María",
+      "category": "Carne",
+      "price": 1222,
+      "protein_g": 3.98,
+      "fat_g": 3.93,
+      "carbs_g": 5.67,
+      "sodium_mg": 57,
+      "fiber_g": 0.0,
+      "co2_kg": 1.6,
+      "water_liters": 716,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 99,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Carozzi",
+      "category": "Despensa",
+      "price": 883,
+      "protein_g": 4.21,
+      "fat_g": 2.15,
+      "carbs_g": 3.86,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 1.07,
+      "water_liters": 881,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 100,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Watt's",
+      "category": "Carne",
+      "price": 1423,
+      "protein_g": 9.57,
+      "fat_g": 1.12,
+      "carbs_g": 52.15,
+      "sodium_mg": 0,
+      "fiber_g": 3.6,
+      "co2_kg": 0.38,
+      "water_liters": 99,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 101,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Tottus",
+      "category": "Carne",
+      "price": 1233,
+      "protein_g": 15.79,
+      "fat_g": 11.74,
+      "carbs_g": 1.18,
+      "sodium_mg": 96,
+      "fiber_g": 0.0,
+      "co2_kg": 2.8,
+      "water_liters": 1977,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 102,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Colún",
+      "category": "Fruta",
+      "price": 741,
+      "protein_g": 3.72,
+      "fat_g": 2.93,
+      "carbs_g": 4.82,
+      "sodium_mg": 47,
+      "fiber_g": 0.0,
+      "co2_kg": 0.8,
+      "water_liters": 479,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 103,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Nestlé",
+      "category": "Lácteos",
+      "price": 300,
+      "protein_g": 8.23,
+      "fat_g": 1.18,
+      "carbs_g": 49.89,
+      "sodium_mg": 1136,
+      "fiber_g": 2.25,
+      "co2_kg": 0.64,
+      "water_liters": 238,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 104,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "Agrosuper",
+      "category": "Desayuno",
+      "price": 300,
+      "protein_g": 13.9,
+      "fat_g": 23.13,
+      "carbs_g": 1.64,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 7.75,
+      "water_liters": 3741,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 105,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "La Preferida",
+      "category": "Verdura",
+      "price": 1701,
+      "protein_g": 9.41,
+      "fat_g": 0.79,
+      "carbs_g": 52.21,
+      "sodium_mg": 0,
+      "fiber_g": 3.41,
+      "co2_kg": 0.25,
+      "water_liters": 26,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 106,
+    "fields": {
+      "name": "Pan Molde Integral 700g",
+      "brand": "Agrosuper",
+      "category": "Desayuno",
+      "price": 3037,
+      "protein_g": 0.84,
+      "fat_g": 0.22,
+      "carbs_g": 3.07,
+      "sodium_mg": 0,
+      "fiber_g": 1.07,
+      "co2_kg": 0.08,
+      "water_liters": 319,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 107,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "Colún",
+      "category": "Carne",
+      "price": 3823,
+      "protein_g": 9.52,
+      "fat_g": 2.1,
+      "carbs_g": 83.4,
+      "sodium_mg": 3,
+      "fiber_g": 3.65,
+      "co2_kg": 0.81,
+      "water_liters": 4731,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 108,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Marcel",
+      "category": "Fruta",
+      "price": 742,
+      "protein_g": 0.92,
+      "fat_g": 0.24,
+      "carbs_g": 17.98,
+      "sodium_mg": 7,
+      "fiber_g": 1.91,
+      "co2_kg": 0.09,
+      "water_liters": 43,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 109,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "Tottus",
+      "category": "Snack",
+      "price": 9776,
+      "protein_g": 36.02,
+      "fat_g": 3.92,
+      "carbs_g": 0.0,
+      "sodium_mg": 138,
+      "fiber_g": 0.0,
+      "co2_kg": 6.96,
+      "water_liters": 2939,
+      "land_m2": 0.08,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 110,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Super Pollo",
+      "category": "Fruta",
+      "price": 989,
+      "protein_g": 0.3,
+      "fat_g": 0.25,
+      "carbs_g": 14.73,
+      "sodium_mg": 1,
+      "fiber_g": 2.27,
+      "co2_kg": 0.05,
+      "water_liters": 16,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 111,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Lucchetti",
+      "category": "Despensa",
+      "price": 2865,
+      "protein_g": 1.65,
+      "fat_g": 13.47,
+      "carbs_g": 7.91,
+      "sodium_mg": 13,
+      "fiber_g": 5.47,
+      "co2_kg": 1.48,
+      "water_liters": 680,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 112,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Carozzi",
+      "category": "Snack",
+      "price": 8024,
+      "protein_g": 37.45,
+      "fat_g": 4.03,
+      "carbs_g": 0.0,
+      "sodium_mg": 5,
+      "fiber_g": 0.0,
+      "co2_kg": 4.97,
+      "water_liters": 970,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 113,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "La Preferida",
+      "category": "Snack",
+      "price": 3289,
+      "protein_g": 1.5,
+      "fat_g": 17.79,
+      "carbs_g": 9.43,
+      "sodium_mg": 0,
+      "fiber_g": 5.01,
+      "co2_kg": 2.38,
+      "water_liters": 920,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 114,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Soprole",
+      "category": "Despensa",
+      "price": 2635,
+      "protein_g": 17.18,
+      "fat_g": 16.94,
+      "carbs_g": 1.43,
+      "sodium_mg": 17,
+      "fiber_g": 0.0,
+      "co2_kg": 7.67,
+      "water_liters": 3491,
+      "land_m2": 0.1,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 115,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Jumbo",
+      "category": "Carne",
+      "price": 996,
+      "protein_g": 4.47,
+      "fat_g": 3.03,
+      "carbs_g": 5.14,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 1.85,
+      "water_liters": 624,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 116,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "Jumbo",
+      "category": "Carne",
+      "price": 1409,
+      "protein_g": 1.31,
+      "fat_g": 0.18,
+      "carbs_g": 2.03,
+      "sodium_mg": 15,
+      "fiber_g": 1.02,
+      "co2_kg": 0.02,
+      "water_liters": 10,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 117,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Doña María",
+      "category": "Panadería",
+      "price": 4556,
+      "protein_g": 14.44,
+      "fat_g": 27.19,
+      "carbs_g": 1.57,
+      "sodium_mg": 742,
+      "fiber_g": 0.0,
+      "co2_kg": 7.55,
+      "water_liters": 264,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 118,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Nestlé",
+      "category": "Desayuno",
+      "price": 12060,
+      "protein_g": 32.22,
+      "fat_g": 23.15,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 25.51,
+      "water_liters": 27429,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 119,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Super Pollo",
+      "category": "Panadería",
+      "price": 460,
+      "protein_g": 11.15,
+      "fat_g": 11.11,
+      "carbs_g": 0.97,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 4.53,
+      "water_liters": 561,
+      "land_m2": 0.06,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 120,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Ideal",
+      "category": "Verdura",
+      "price": 696,
+      "protein_g": 1.26,
+      "fat_g": 0.32,
+      "carbs_g": 23.64,
+      "sodium_mg": 0,
+      "fiber_g": 2.39,
+      "co2_kg": 0.07,
+      "water_liters": 214,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 121,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Marcel",
+      "category": "Fruta",
+      "price": 3149,
+      "protein_g": 0.78,
+      "fat_g": 0.15,
+      "carbs_g": 3.62,
+      "sodium_mg": 0,
+      "fiber_g": 1.52,
+      "co2_kg": 0.16,
+      "water_liters": 77,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 122,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "Carozzi",
+      "category": "Panadería",
+      "price": 4470,
+      "protein_g": 8.49,
+      "fat_g": 3.5,
+      "carbs_g": 95.44,
+      "sodium_mg": 6,
+      "fiber_g": 3.51,
+      "co2_kg": 0.82,
+      "water_liters": 2362,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 123,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Soprole",
+      "category": "Carne",
+      "price": 830,
+      "protein_g": 0.99,
+      "fat_g": 0.24,
+      "carbs_g": 26.04,
+      "sodium_mg": 7,
+      "fiber_g": 2.05,
+      "co2_kg": 0.04,
+      "water_liters": 131,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 124,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "Ambrosoli",
+      "category": "Desayuno",
+      "price": 1365,
+      "protein_g": 12.21,
+      "fat_g": 9.05,
+      "carbs_g": 1.07,
+      "sodium_mg": 28,
+      "fiber_g": 0.0,
+      "co2_kg": 3.12,
+      "water_liters": 4428,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 125,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Ideal",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 3.57,
+      "fat_g": 3.74,
+      "carbs_g": 4.94,
+      "sodium_mg": 7,
+      "fiber_g": 0.0,
+      "co2_kg": 0.84,
+      "water_liters": 1984,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 126,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Marcel",
+      "category": "Despensa",
+      "price": 822,
+      "protein_g": 1.55,
+      "fat_g": 0.18,
+      "carbs_g": 3.3,
+      "sodium_mg": 20,
+      "fiber_g": 1.16,
+      "co2_kg": 0.02,
+      "water_liters": 10,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 127,
+    "fields": {
+      "name": "Naranja 1kg",
+      "brand": "Tottus",
+      "category": "Fruta",
+      "price": 300,
+      "protein_g": 1.37,
+      "fat_g": 0.38,
+      "carbs_g": 22.97,
+      "sodium_mg": 3,
+      "fiber_g": 2.56,
+      "co2_kg": 0.02,
+      "water_liters": 10,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 128,
+    "fields": {
+      "name": "Yogur Griego 900g",
+      "brand": "Watt's",
+      "category": "Verdura",
+      "price": 1320,
+      "protein_g": 26.94,
+      "fat_g": 4.29,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 6.19,
+      "water_liters": 1098,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 129,
+    "fields": {
+      "name": "Lechuga Hidropónica 1u",
+      "brand": "Trattoria",
+      "category": "Verdura",
+      "price": 300,
+      "protein_g": 0.22,
+      "fat_g": 0.18,
+      "carbs_g": 15.95,
+      "sodium_mg": 1,
+      "fiber_g": 3.04,
+      "co2_kg": 0.01,
+      "water_liters": 36,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 130,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Ideal",
+      "category": "Despensa",
+      "price": 405,
+      "protein_g": 1.15,
+      "fat_g": 0.22,
+      "carbs_g": 3.18,
+      "sodium_mg": 6,
+      "fiber_g": 0.96,
+      "co2_kg": 0.18,
+      "water_liters": 264,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 131,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Trattoria",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 1.15,
+      "fat_g": 0.22,
+      "carbs_g": 17.21,
+      "sodium_mg": 7,
+      "fiber_g": 2.56,
+      "co2_kg": 0.04,
+      "water_liters": 101,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 132,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "Marcel",
+      "category": "Panadería",
+      "price": 1033,
+      "protein_g": 5.76,
+      "fat_g": 2.8,
+      "carbs_g": 88.34,
+      "sodium_mg": 3,
+      "fiber_g": 2.52,
+      "co2_kg": 0.44,
+      "water_liters": 3295,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 133,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "La Preferida",
+      "category": "Snack",
+      "price": 1124,
+      "protein_g": 10.11,
+      "fat_g": 0.99,
+      "carbs_g": 41.71,
+      "sodium_mg": 1062,
+      "fiber_g": 2.13,
+      "co2_kg": 0.89,
+      "water_liters": 190,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 134,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Marcel",
+      "category": "Carne",
+      "price": 2329,
+      "protein_g": 1.37,
+      "fat_g": 0.36,
+      "carbs_g": 24.86,
+      "sodium_mg": 4,
+      "fiber_g": 3.24,
+      "co2_kg": 0.02,
+      "water_liters": 52,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 135,
+    "fields": {
+      "name": "Frutilla 500g",
+      "brand": "Marcel",
+      "category": "Verdura",
+      "price": 6146,
+      "protein_g": 2.09,
+      "fat_g": 13.73,
+      "carbs_g": 9.79,
+      "sodium_mg": 10,
+      "fiber_g": 5.29,
+      "co2_kg": 2.59,
+      "water_liters": 385,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 136,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Marcel",
+      "category": "Despensa",
+      "price": 2450,
+      "protein_g": 0.3,
+      "fat_g": 0.23,
+      "carbs_g": 12.92,
+      "sodium_mg": 2,
+      "fiber_g": 2.03,
+      "co2_kg": 0.06,
+      "water_liters": 76,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 137,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "PF",
+      "category": "Carne",
+      "price": 4535,
+      "protein_g": 23.9,
+      "fat_g": 2.94,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 1.14,
+      "water_liters": 2087,
+      "land_m2": 0.09,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 138,
+    "fields": {
+      "name": "Pasta Espagueti 1kg",
+      "brand": "Super Pollo",
+      "category": "Snack",
+      "price": 1235,
+      "protein_g": 3.95,
+      "fat_g": 3.64,
+      "carbs_g": 4.2,
+      "sodium_mg": 45,
+      "fiber_g": 0.0,
+      "co2_kg": 0.38,
+      "water_liters": 1261,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 139,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "La Preferida",
+      "category": "Panadería",
+      "price": 566,
+      "protein_g": 24.17,
+      "fat_g": 15.22,
+      "carbs_g": 0.0,
+      "sodium_mg": 165,
+      "fiber_g": 0.0,
+      "co2_kg": 4.04,
+      "water_liters": 5732,
+      "land_m2": 0.99,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 140,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "Soprole",
+      "category": "Snack",
+      "price": 4516,
+      "protein_g": 18.65,
+      "fat_g": 18.35,
+      "carbs_g": 0.0,
+      "sodium_mg": 56,
+      "fiber_g": 0.0,
+      "co2_kg": 1.08,
+      "water_liters": 8764,
+      "land_m2": 0.92,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 141,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Trattoria",
+      "category": "Snack",
+      "price": 709,
+      "protein_g": 8.16,
+      "fat_g": 3.07,
+      "carbs_g": 61.61,
+      "sodium_mg": 545,
+      "fiber_g": 2.5,
+      "co2_kg": 0.34,
+      "water_liters": 298,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 142,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Carozzi",
+      "category": "Lácteos",
+      "price": 3320,
+      "protein_g": 3.52,
+      "fat_g": 2.34,
+      "carbs_g": 5.02,
+      "sodium_mg": 92,
+      "fiber_g": 0.0,
+      "co2_kg": 1.07,
+      "water_liters": 1416,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 143,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Soprole",
+      "category": "Lácteos",
+      "price": 766,
+      "protein_g": 33.6,
+      "fat_g": 2.62,
+      "carbs_g": 0.0,
+      "sodium_mg": 32,
+      "fiber_g": 0.0,
+      "co2_kg": 5.07,
+      "water_liters": 434,
+      "land_m2": 0.1,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 144,
+    "fields": {
+      "name": "Lechuga Hidropónica 1u",
+      "brand": "Trattoria",
+      "category": "Panadería",
+      "price": 707,
+      "protein_g": 1.48,
+      "fat_g": 0.2,
+      "carbs_g": 3.25,
+      "sodium_mg": 14,
+      "fiber_g": 1.21,
+      "co2_kg": 0.01,
+      "water_liters": 33,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 145,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "Trattoria",
+      "category": "Fruta",
+      "price": 797,
+      "protein_g": 6.72,
+      "fat_g": 4.36,
+      "carbs_g": 53.04,
+      "sodium_mg": 0,
+      "fiber_g": 2.72,
+      "co2_kg": 0.4,
+      "water_liters": 231,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 146,
+    "fields": {
+      "name": "Zanahoria 1kg",
+      "brand": "Colún",
+      "category": "Desayuno",
+      "price": 2269,
+      "protein_g": 21.37,
+      "fat_g": 24.53,
+      "carbs_g": 1.85,
+      "sodium_mg": 453,
+      "fiber_g": 0.0,
+      "co2_kg": 8.29,
+      "water_liters": 2665,
+      "land_m2": 0.15,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 147,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "Doña María",
+      "category": "Despensa",
+      "price": 11246,
+      "protein_g": 23.23,
+      "fat_g": 24.34,
+      "carbs_g": 0.0,
+      "sodium_mg": 7,
+      "fiber_g": 0.0,
+      "co2_kg": 13.25,
+      "water_liters": 15392,
+      "land_m2": 0.71,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 148,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "Lucchetti",
+      "category": "Carne",
+      "price": 1456,
+      "protein_g": 14.26,
+      "fat_g": 11.02,
+      "carbs_g": 1.04,
+      "sodium_mg": 249,
+      "fiber_g": 0.0,
+      "co2_kg": 4.9,
+      "water_liters": 2080,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 149,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Lider",
+      "category": "Despensa",
+      "price": 1462,
+      "protein_g": 35.5,
+      "fat_g": 4.41,
+      "carbs_g": 0.0,
+      "sodium_mg": 3,
+      "fiber_g": 0.0,
+      "co2_kg": 3.08,
+      "water_liters": 2904,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 150,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Tottus",
+      "category": "Carne",
+      "price": 526,
+      "protein_g": 1.61,
+      "fat_g": 0.15,
+      "carbs_g": 3.0,
+      "sodium_mg": 17,
+      "fiber_g": 1.09,
+      "co2_kg": 0.04,
+      "water_liters": 26,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 151,
+    "fields": {
+      "name": "Cebolla 1kg",
+      "brand": "Colún",
+      "category": "Panadería",
+      "price": 1009,
+      "protein_g": 7.43,
+      "fat_g": 1.08,
+      "carbs_g": 60.76,
+      "sodium_mg": 549,
+      "fiber_g": 2.94,
+      "co2_kg": 0.5,
+      "water_liters": 82,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 152,
+    "fields": {
+      "name": "Naranja 1kg",
+      "brand": "Tottus",
+      "category": "Lácteos",
+      "price": 448,
+      "protein_g": 0.92,
+      "fat_g": 0.23,
+      "carbs_g": 16.62,
+      "sodium_mg": 6,
+      "fiber_g": 2.06,
+      "co2_kg": 0.01,
+      "water_liters": 55,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 153,
+    "fields": {
+      "name": "Arándanos 200g",
+      "brand": "PF",
+      "category": "Despensa",
+      "price": 14533,
+      "protein_g": 30.88,
+      "fat_g": 22.64,
+      "carbs_g": 0.0,
+      "sodium_mg": 30,
+      "fiber_g": 0.0,
+      "co2_kg": 21.53,
+      "water_liters": 12345,
+      "land_m2": 0.83,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 154,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Colún",
+      "category": "Carne",
+      "price": 2156,
+      "protein_g": 1.16,
+      "fat_g": 0.29,
+      "carbs_g": 20.4,
+      "sodium_mg": 4,
+      "fiber_g": 2.94,
+      "co2_kg": 0.09,
+      "water_liters": 189,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 155,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Carozzi",
+      "category": "Snack",
+      "price": 2723,
+      "protein_g": 40.16,
+      "fat_g": 3.96,
+      "carbs_g": 0.0,
+      "sodium_mg": 141,
+      "fiber_g": 0.0,
+      "co2_kg": 4.9,
+      "water_liters": 1575,
+      "land_m2": 0.04,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 156,
+    "fields": {
+      "name": "Yogur Griego 900g",
+      "brand": "Nestlé",
+      "category": "Lácteos",
+      "price": 814,
+      "protein_g": 1.3,
+      "fat_g": 0.17,
+      "carbs_g": 3.72,
+      "sodium_mg": 7,
+      "fiber_g": 1.63,
+      "co2_kg": 0.03,
+      "water_liters": 19,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 157,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "La Preferida",
+      "category": "Carne",
+      "price": 1771,
+      "protein_g": 2.62,
+      "fat_g": 4.48,
+      "carbs_g": 3.64,
+      "sodium_mg": 35,
+      "fiber_g": 0.0,
+      "co2_kg": 0.99,
+      "water_liters": 978,
+      "land_m2": 0.08,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 158,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Ideal",
+      "category": "Lácteos",
+      "price": 2399,
+      "protein_g": 24.51,
+      "fat_g": 4.67,
+      "carbs_g": 0.0,
+      "sodium_mg": 83,
+      "fiber_g": 0.0,
+      "co2_kg": 1.47,
+      "water_liters": 2947,
+      "land_m2": 0.04,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 159,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Nestlé",
+      "category": "Panadería",
+      "price": 300,
+      "protein_g": 1.21,
+      "fat_g": 0.22,
+      "carbs_g": 3.56,
+      "sodium_mg": 2,
+      "fiber_g": 1.14,
+      "co2_kg": 0.03,
+      "water_liters": 285,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 160,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Marcel",
+      "category": "Panadería",
+      "price": 308,
+      "protein_g": 1.91,
+      "fat_g": 10.8,
+      "carbs_g": 10.14,
+      "sodium_mg": 4,
+      "fiber_g": 6.71,
+      "co2_kg": 1.27,
+      "water_liters": 3373,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 161,
+    "fields": {
+      "name": "Lentejas 1kg",
+      "brand": "Lucchetti",
+      "category": "Snack",
+      "price": 6399,
+      "protein_g": 0.0,
+      "fat_g": 109.76,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 0.46,
+      "water_liters": 1393,
+      "land_m2": 0.17,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 162,
+    "fields": {
+      "name": "Atún en Agua 170g",
+      "brand": "Watt's",
+      "category": "Desayuno",
+      "price": 1121,
+      "protein_g": 0.9,
+      "fat_g": 0.23,
+      "carbs_g": 3.66,
+      "sodium_mg": 12,
+      "fiber_g": 1.0,
+      "co2_kg": 0.07,
+      "water_liters": 167,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 163,
+    "fields": {
+      "name": "Lechuga Hidropónica 1u",
+      "brand": "Lider",
+      "category": "Panadería",
+      "price": 1088,
+      "protein_g": 0.24,
+      "fat_g": 0.2,
+      "carbs_g": 17.73,
+      "sodium_mg": 0,
+      "fiber_g": 2.78,
+      "co2_kg": 0.01,
+      "water_liters": 10,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 164,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Carozzi",
+      "category": "Panadería",
+      "price": 1670,
+      "protein_g": 9.32,
+      "fat_g": 4.38,
+      "carbs_g": 39.92,
+      "sodium_mg": 989,
+      "fiber_g": 2.58,
+      "co2_kg": 0.54,
+      "water_liters": 193,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 165,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Nestlé",
+      "category": "Despensa",
+      "price": 2131,
+      "protein_g": 0.32,
+      "fat_g": 0.2,
+      "carbs_g": 13.37,
+      "sodium_mg": 0,
+      "fiber_g": 1.82,
+      "co2_kg": 0.02,
+      "water_liters": 10,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 166,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "Nestlé",
+      "category": "Snack",
+      "price": 441,
+      "protein_g": 0.87,
+      "fat_g": 0.34,
+      "carbs_g": 22.29,
+      "sodium_mg": 2,
+      "fiber_g": 2.4,
+      "co2_kg": 0.02,
+      "water_liters": 191,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 167,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Lider",
+      "category": "Panadería",
+      "price": 300,
+      "protein_g": 0.31,
+      "fat_g": 0.25,
+      "carbs_g": 17.1,
+      "sodium_mg": 0,
+      "fiber_g": 1.93,
+      "co2_kg": 0.03,
+      "water_liters": 108,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 168,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Marcel",
+      "category": "Verdura",
+      "price": 1724,
+      "protein_g": 11.58,
+      "fat_g": 3.2,
+      "carbs_g": 51.29,
+      "sodium_mg": 786,
+      "fiber_g": 3.04,
+      "co2_kg": 0.56,
+      "water_liters": 203,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 169,
+    "fields": {
+      "name": "Naranja 1kg",
+      "brand": "Agrosuper",
+      "category": "Carne",
+      "price": 1668,
+      "protein_g": 7.74,
+      "fat_g": 1.06,
+      "carbs_g": 61.77,
+      "sodium_mg": 945,
+      "fiber_g": 3.35,
+      "co2_kg": 0.66,
+      "water_liters": 68,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 170,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "La Preferida",
+      "category": "Carne",
+      "price": 1387,
+      "protein_g": 0.24,
+      "fat_g": 0.26,
+      "carbs_g": 9.91,
+      "sodium_mg": 1,
+      "fiber_g": 2.67,
+      "co2_kg": 0.03,
+      "water_liters": 108,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 171,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Watt's",
+      "category": "Fruta",
+      "price": 300,
+      "protein_g": 19.78,
+      "fat_g": 18.84,
+      "carbs_g": 1.15,
+      "sodium_mg": 320,
+      "fiber_g": 0.0,
+      "co2_kg": 4.65,
+      "water_liters": 1969,
+      "land_m2": 0.09,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 172,
+    "fields": {
+      "name": "Pechuga de Pavo 500g",
+      "brand": "Lider",
+      "category": "Carne",
+      "price": 1260,
+      "protein_g": 1.56,
+      "fat_g": 0.25,
+      "carbs_g": 2.9,
+      "sodium_mg": 21,
+      "fiber_g": 0.97,
+      "co2_kg": 0.02,
+      "water_liters": 39,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 173,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "PF",
+      "category": "Despensa",
+      "price": 3510,
+      "protein_g": 0.0,
+      "fat_g": 89.18,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 2.79,
+      "water_liters": 1288,
+      "land_m2": 0.12,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 174,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "Watt's",
+      "category": "Snack",
+      "price": 3719,
+      "protein_g": 0.0,
+      "fat_g": 105.39,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 0.27,
+      "water_liters": 3853,
+      "land_m2": 0.14,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 175,
+    "fields": {
+      "name": "Yogur Griego 900g",
+      "brand": "PF",
+      "category": "Fruta",
+      "price": 1288,
+      "protein_g": 10.08,
+      "fat_g": 2.55,
+      "carbs_g": 35.69,
+      "sodium_mg": 553,
+      "fiber_g": 3.04,
+      "co2_kg": 0.38,
+      "water_liters": 47,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 176,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Colún",
+      "category": "Carne",
+      "price": 1281,
+      "protein_g": 16.17,
+      "fat_g": 9.19,
+      "carbs_g": 1.07,
+      "sodium_mg": 116,
+      "fiber_g": 0.0,
+      "co2_kg": 5.18,
+      "water_liters": 2707,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 177,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "Ideal",
+      "category": "Fruta",
+      "price": 1223,
+      "protein_g": 1.04,
+      "fat_g": 0.17,
+      "carbs_g": 4.04,
+      "sodium_mg": 0,
+      "fiber_g": 1.41,
+      "co2_kg": 0.02,
+      "water_liters": 237,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 178,
+    "fields": {
+      "name": "Leche Descremada 1L",
+      "brand": "Ambrosoli",
+      "category": "Lácteos",
+      "price": 1474,
+      "protein_g": 1.25,
+      "fat_g": 0.26,
+      "carbs_g": 26.91,
+      "sodium_mg": 3,
+      "fiber_g": 1.97,
+      "co2_kg": 0.09,
+      "water_liters": 124,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 179,
+    "fields": {
+      "name": "Zanahoria 1kg",
+      "brand": "PF",
+      "category": "Carne",
+      "price": 14409,
+      "protein_g": 27.88,
+      "fat_g": 25.94,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 21.85,
+      "water_liters": 5043,
+      "land_m2": 0.5,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 180,
+    "fields": {
+      "name": "Zanahoria 1kg",
+      "brand": "Ambrosoli",
+      "category": "Lácteos",
+      "price": 300,
+      "protein_g": 9.1,
+      "fat_g": 2.66,
+      "carbs_g": 64.54,
+      "sodium_mg": 0,
+      "fiber_g": 2.82,
+      "co2_kg": 0.1,
+      "water_liters": 1825,
+      "land_m2": 0.04,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 181,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Jumbo",
+      "category": "Despensa",
+      "price": 2431,
+      "protein_g": 18.86,
+      "fat_g": 27.81,
+      "carbs_g": 1.8,
+      "sodium_mg": 40,
+      "fiber_g": 0.0,
+      "co2_kg": 0.87,
+      "water_liters": 6399,
+      "land_m2": 0.11,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 182,
+    "fields": {
+      "name": "Frutilla 500g",
+      "brand": "Doña María",
+      "category": "Snack",
+      "price": 506,
+      "protein_g": 8.35,
+      "fat_g": 3.4,
+      "carbs_g": 82.79,
+      "sodium_mg": 8,
+      "fiber_g": 3.95,
+      "co2_kg": 1.0,
+      "water_liters": 2791,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 183,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Tottus",
+      "category": "Despensa",
+      "price": 2372,
+      "protein_g": 0.8,
+      "fat_g": 0.26,
+      "carbs_g": 24.8,
+      "sodium_mg": 2,
+      "fiber_g": 2.14,
+      "co2_kg": 0.09,
+      "water_liters": 50,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 184,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Colún",
+      "category": "Panadería",
+      "price": 300,
+      "protein_g": 2.48,
+      "fat_g": 2.56,
+      "carbs_g": 5.58,
+      "sodium_mg": 96,
+      "fiber_g": 0.0,
+      "co2_kg": 1.85,
+      "water_liters": 778,
+      "land_m2": 0.1,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 185,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Ideal",
+      "category": "Carne",
+      "price": 300,
+      "protein_g": 19.99,
+      "fat_g": 15.56,
+      "carbs_g": 0.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 15.41,
+      "water_liters": 17886,
+      "land_m2": 0.73,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 186,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "Nestlé",
+      "category": "Carne",
+      "price": 3839,
+      "protein_g": 3.64,
+      "fat_g": 2.83,
+      "carbs_g": 3.42,
+      "sodium_mg": 63,
+      "fiber_g": 0.0,
+      "co2_kg": 1.2,
+      "water_liters": 396,
+      "land_m2": 0.07,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 187,
+    "fields": {
+      "name": "Carne Molida 500g",
+      "brand": "PF",
+      "category": "Carne",
+      "price": 1031,
+      "protein_g": 8.95,
+      "fat_g": 4.31,
+      "carbs_g": 59.14,
+      "sodium_mg": 54,
+      "fiber_g": 2.18,
+      "co2_kg": 0.22,
+      "water_liters": 54,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 188,
+    "fields": {
+      "name": "Cereal Integral 500g",
+      "brand": "Doña María",
+      "category": "Desayuno",
+      "price": 610,
+      "protein_g": 5.82,
+      "fat_g": 0.81,
+      "carbs_g": 61.26,
+      "sodium_mg": 315,
+      "fiber_g": 3.83,
+      "co2_kg": 0.2,
+      "water_liters": 227,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 189,
+    "fields": {
+      "name": "Queso Gauda 500g",
+      "brand": "Trattoria",
+      "category": "Desayuno",
+      "price": 2784,
+      "protein_g": 3.53,
+      "fat_g": 3.82,
+      "carbs_g": 5.0,
+      "sodium_mg": 0,
+      "fiber_g": 0.0,
+      "co2_kg": 0.14,
+      "water_liters": 1678,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 190,
+    "fields": {
+      "name": "Yogur Griego 900g",
+      "brand": "Agrosuper",
+      "category": "Verdura",
+      "price": 1549,
+      "protein_g": 6.89,
+      "fat_g": 3.03,
+      "carbs_g": 45.3,
+      "sodium_mg": 138,
+      "fiber_g": 2.96,
+      "co2_kg": 0.5,
+      "water_liters": 10,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 191,
+    "fields": {
+      "name": "Porotos Negros 1kg",
+      "brand": "Colún",
+      "category": "Snack",
+      "price": 300,
+      "protein_g": 8.36,
+      "fat_g": 3.19,
+      "carbs_g": 87.86,
+      "sodium_mg": 12,
+      "fiber_g": 3.63,
+      "co2_kg": 0.95,
+      "water_liters": 3648,
+      "land_m2": 0.03,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 192,
+    "fields": {
+      "name": "Pan Molde Integral 700g",
+      "brand": "Lider",
+      "category": "Carne",
+      "price": 300,
+      "protein_g": 13.81,
+      "fat_g": 8.36,
+      "carbs_g": 0.85,
+      "sodium_mg": 196,
+      "fiber_g": 0.0,
+      "co2_kg": 0.48,
+      "water_liters": 4096,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 193,
+    "fields": {
+      "name": "Pera 1kg",
+      "brand": "Tottus",
+      "category": "Fruta",
+      "price": 2913,
+      "protein_g": 4.29,
+      "fat_g": 3.86,
+      "carbs_g": 3.9,
+      "sodium_mg": 76,
+      "fiber_g": 0.0,
+      "co2_kg": 1.07,
+      "water_liters": 1545,
+      "land_m2": 0.02,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 194,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Super Pollo",
+      "category": "Despensa",
+      "price": 3542,
+      "protein_g": 2.39,
+      "fat_g": 13.51,
+      "carbs_g": 7.74,
+      "sodium_mg": 0,
+      "fiber_g": 5.92,
+      "co2_kg": 0.46,
+      "water_liters": 3850,
+      "land_m2": 0.01,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 195,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "Soprole",
+      "category": "Despensa",
+      "price": 1699,
+      "protein_g": 4.46,
+      "fat_g": 3.6,
+      "carbs_g": 3.53,
+      "sodium_mg": 81,
+      "fiber_g": 0.0,
+      "co2_kg": 1.99,
+      "water_liters": 128,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 196,
+    "fields": {
+      "name": "Arroz Blanco 1kg",
+      "brand": "Ambrosoli",
+      "category": "Despensa",
+      "price": 1274,
+      "protein_g": 8.34,
+      "fat_g": 4.51,
+      "carbs_g": 42.5,
+      "sodium_mg": 275,
+      "fiber_g": 1.75,
+      "co2_kg": 0.33,
+      "water_liters": 315,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 197,
+    "fields": {
+      "name": "Aceite de Oliva 1L",
+      "brand": "PF",
+      "category": "Snack",
+      "price": 3184,
+      "protein_g": 0.24,
+      "fat_g": 0.18,
+      "carbs_g": 14.83,
+      "sodium_mg": 2,
+      "fiber_g": 2.12,
+      "co2_kg": 0.04,
+      "water_liters": 42,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 198,
+    "fields": {
+      "name": "Brócoli 1u",
+      "brand": "Doña María",
+      "category": "Panadería",
+      "price": 948,
+      "protein_g": 1.64,
+      "fat_g": 0.19,
+      "carbs_g": 2.36,
+      "sodium_mg": 22,
+      "fiber_g": 1.68,
+      "co2_kg": 0.02,
+      "water_liters": 16,
+      "land_m2": 0.0005,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 199,
+    "fields": {
+      "name": "Coliflor 1u",
+      "brand": "Ambrosoli",
+      "category": "Desayuno",
+      "price": 2066,
+      "protein_g": 2.23,
+      "fat_g": 12.12,
+      "carbs_g": 6.35,
+      "sodium_mg": 0,
+      "fiber_g": 7.3,
+      "co2_kg": 2.95,
+      "water_liters": 2372,
+      "land_m2": 0.05,
+      "source": "generated"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 200,
+    "fields": {
+      "name": "Manzana Verde 1kg",
+      "brand": "Colún",
+      "category": "Carne",
+      "price": 1167,
+      "protein_g": 15.48,
+      "fat_g": 15.89,
+      "carbs_g": 1.4,
+      "sodium_mg": 431,
+      "fiber_g": 0.0,
+      "co2_kg": 4.86,
+      "water_liters": 7779,
+      "land_m2": 0.04,
+      "source": "generated"
+    }
+  }
+]

@@ -6,9 +6,9 @@ from .models import Product
 from .serializers import ProductSerializer
 
 class ProductViewSet(viewsets.ReadOnlyModelViewSet):
-    queryset = Product.objects.all().order_by('name')
+    queryset = Product.objects.all().order_by('id')
     serializer_class = ProductSerializer
-    lookup_field = 'sku'
+    lookup_field = 'id'
 
     def get_queryset(self):
         qs = super().get_queryset()
@@ -17,15 +17,14 @@ class ProductViewSet(viewsets.ReadOnlyModelViewSet):
             qs = qs.filter(
                 Q(name__icontains=q) |
                 Q(brand__icontains=q) |
-                Q(category__icontains=q) |
-                Q(sku__icontains=q)
+                Q(category__icontains=q)
             )
         return qs
 
 @api_view(['POST'])
 def optimize_cart(request):
     """
-    POST { "items":[{"sku":"...", "quantity":1}], "weights": {"price":0.5,"co2":0.5} }
+    POST { "items":[{"id":..., "quantity":1}], "weights": {"price":0.5,"co2":0.5} }
     Very simple greedy optimizer: for each requested item, choose the product in the same
     category with minimal weighted (price * w_price + co2 * w_co2).
     """
@@ -43,10 +42,10 @@ def optimize_cart(request):
     total_co2 = 0.0
 
     for it in items:
-        sku = it.get('sku')
+        prod_id = it.get('id')
         qty = int(it.get('quantity', 1))
         try:
-            orig = Product.objects.get(sku=sku)
+            orig = Product.objects.get(id=prod_id)
         except Product.DoesNotExist:
             continue
 
@@ -57,8 +56,8 @@ def optimize_cart(request):
             best = orig
 
         suggested.append({
-            'requested_sku': sku,
-            'chosen_sku': best.sku,
+            'requested_id': prod_id,
+            'chosen_id': best.id,
             'name': best.name,
             'quantity': qty,
             'unit_price': float(best.price or 0),
